@@ -32,7 +32,8 @@ export function Form() {
 
   const addContactToList = (name, number) => {
     if (contactIsNotInList(name)) {
-      const action = addContact({ id: nanoid(), name, phone: number });
+      const action = addContact({ id: nanoid(), name, number });
+      // const action = addContact({ id: nanoid(), name, phone: number });
       dispatch(action);
       reset();
     }

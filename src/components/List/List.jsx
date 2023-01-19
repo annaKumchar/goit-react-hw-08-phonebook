@@ -13,7 +13,8 @@ export const List = () => {
     <ListEl>
       {vizibleContacts.map((contact, id) => (
         <ListItem key={id}>
-          {contact.name}: {contact.phone}
+          {contact.name}: {contact.number}
+          {/* {contact.name}: {contact.phone} */}
           <ListButton
             type="button"
             onClick={() => dispatch(deleteContact(contact.id))}
