@@ -1,4 +1,4 @@
-import { Form } from 'components/Form/Form';
+import { Form } from 'components/Form/ContactsForm';
 import { Section } from 'components/Section/Section';
 import { PhonebookWrap } from 'components/Section/Section.styled';
 import { List } from 'components/List/List';

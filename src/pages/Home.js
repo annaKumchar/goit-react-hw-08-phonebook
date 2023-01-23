@@ -16,7 +16,7 @@ const styles = {
     return (
       <div style={styles.container}>
         <h1 style={styles.title}>
-          Task manager welcome page{' '}
+        Welcome to your Phonebook! To access, register or login to your account.
           <span role="img" aria-label="Greeting icon">
             💁‍♀️
           </span>

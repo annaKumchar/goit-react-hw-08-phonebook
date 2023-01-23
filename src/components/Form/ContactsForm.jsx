@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
-import { FormEl, FormLabel, InputEl, ButtonEl } from './Form.styled';
+import { FormEl, FormLabel, InputEl, ButtonEl } from './ContactsForm.styled';
 import { nanoid } from 'nanoid';
 import { useSelector, useDispatch } from 'react-redux';
 import { addContact } from 'redux/operations';

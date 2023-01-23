@@ -12,13 +12,13 @@ export const PhonebookSection = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  width: 500px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  padding: 10px;
 `;
 
 export const Title = styled.h2`
+  margin-top: 30px 0 30px 0;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
   margin-top: 0;
   text-transform: uppercase;
 `;

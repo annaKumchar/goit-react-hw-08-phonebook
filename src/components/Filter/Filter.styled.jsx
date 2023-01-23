@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const FilterLabel = styled.label`
+margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
